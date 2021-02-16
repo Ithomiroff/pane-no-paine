@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+    }
+    * {
+        box-sizing: border-box;
+    }
+    #pane {
+        border: 2px solid #000;
+        height: 500px;
+        width: 1000px;
+    }
+    .separator {
+        cursor: default;
+    }
+    .separator:hover {
+        cursor: w-resize;
+    }
+</style>
+<body>
+    <div id="pane">
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>
